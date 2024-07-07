@@ -1,0 +1,9 @@
+Font size:
+
+1) 1 px (pixels) = 1 / 96th inch
+2) 1 pt (point) = 1 / 72th inch [as equals as the word ot ppt font size]
+3) 1 em ([prounces] m) = [refered as the m is the largest width in the alphabets] : 1em = 20px
+4) 1 rem (root) = {
+    * changes with parent tag size
+    1x : 1 times of root (parent) size
+}

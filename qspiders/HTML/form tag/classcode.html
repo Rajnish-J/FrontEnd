@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML Document</title>
+  <style>
+    body{
+      /* background-color: #26cced; */
+    }
+  </style>
+</head>
+
+<body>
+  <!-- !Form -->
+   <form autocomplete="on">
+    <fieldset>
+      <legend>Register</legend>
+      <label for="">Batch No:</label>
+    <input type="text"
+    name="batch"
+    value="M15Batch" readonly><br>
+    <label for="uName">Username:</label>
+    <input type="text" id="uName" placeholder="enter username" name="uName"
+    autofocus
+    ><br>
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" placeholder="enter user email" name="mail" disabled><br>
+<label for="">Password:</label>
+<input type="password" placeholder="enter user password" name="pass"><br>
+<label for="">Phone number:</label>
+<input type="tel" placeholder="enter phone number" maxlength="10" name="phone"><br>
+<label for="">DOB:</label>
+<input type="datetime-local" name="dob"><br>
+<label for="">Gender:</label>
+<input type="radio" name="gen" value="male"><span>Male</span>
+<input type="radio" name="gen" value="female"><span>Female</span>
+<input type="radio" name="gen" value="others"><span>Others</span><br>
+
+<label for="">Language:</label>
+<input type="checkbox" name="lang" value="English"><span>English</span>
+<input type="checkbox" name="lang" value="Tamil"><span>Tamil</span>
+<input type="checkbox" name="lang" value="Kannada"><span>Kannada</span>
+<input type="checkbox" name="lang" value="Telugu"><span>Telugu</span>
+<input type="checkbox" name="lang" value="Malayalam"><span>Malayalam</span>
+<br>
+<label for="">Upload Resume:</label>
+<input type="file" name="file"><br>
+<label for="">Address:</label>
+<textarea name="address" id="" cols="30" rows="5"></textarea><br>
+
+<input type="search"><br>
+<input type="color" name="color"><br>
+
+<!-- ~ drop down -->
+ <label for="">Prgramming Languages:</label>
+ <!-- <select name="program" id="" multiple>  -->
+  <select name="program" id="">
+<option value="">--select programming language--</option>
+<option value="HTML">HTML</option>
+<option value="CSS">CSS</option>
+<option value="JS" selected>JS</option>
+<option value="REACTJS">REACTJS</option>
+<option value="NodeJS">NodeJS</option>
+ </select><br>
+    <input type="submit">
+    <input type="reset">
+    </fieldset>
+   </form>
+</body>
+
+</html>

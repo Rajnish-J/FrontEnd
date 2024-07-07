@@ -1,0 +1,102 @@
+<!-- ? dataList-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="on" id="form">
+        <fieldset>
+        <label for="">Batch code</label>
+        <input type="text" value="M15 Batch" id="" readonly> 
+        <br><br>
+        <label for="uname">Username: </label>
+        <input type="text" name="uName" id="uName" placeholder="Enter username" autofocus>
+        <br>
+        <br>
+        <label for="mail">Mail: </label>
+        <input type="mail" name="mail" id="mail" placeholder="Enter your mail">
+        <br>
+        <br>
+        <label for="password">password: </label>
+        <input type="password" name="pass" id="pass" placeholder="Enter your password">
+        <br>
+        <br>
+        <label for="">Phone number: </label>
+        <input type="tel" name="phone" maxlength="10" placeholder="ph.no">
+        <br>
+        <br>
+        <label for="">DOB</label>
+        <input type="datetime-local" name="dob" id="">
+        <br>
+        <br>
+
+        <label for="">Gender: </label>
+        <input type="radio" name="gen" value = "male"><span>Male</span>
+        <input type="radio" name="gen" value = "female"><span>female</span>
+        <input type="radio" name="gen" value="others"><span>others</span>
+        <br>
+        <br>
+
+        <!-- !Checkbox -->
+
+        <label for="">Language</label>
+        <input type="checkbox"><span>Tamil</span>
+        <input type="checkbox"><span>English</span>
+        <input type="checkbox"><span>Kannada</span>
+        <input type="checkbox"><span>malayalam</span>
+        <input type="checkbox"><span>Telugu</span>
+        <br><br>
+
+        <!-- !File uploading -->
+        <label for="">Upload Resume</label>
+        <input type="file" name="" id="">
+        <br><br>
+
+        <!-- !Text area -->
+        <label for="">Address : </label>
+        <textarea name="Address" id="" cols="55" rows="5"></textarea>
+        <br><br>
+
+        <!-- !Searching -->
+         <label for="">Search: </label>
+        <input type="search" name="" id="">
+        <br><br>
+
+
+        <!-- ! Color -->
+        <label for="">Color: </label>
+        <input type="color" name="" id="">
+        <br><br>
+
+        
+        <label for="">Programming Languages</label>
+        <select name="program" id="" multiple>
+        <option value="">--Select programming languages</option>
+        <option value="Java">Java</option>
+        <option value="Python" selected>Python</option>
+        <option value="FrontEnd">FrontEnd</option>
+        <option value="SQL">SQL</option>
+        </select>
+        <br><br>
+
+        <!-- ! Datalist-->
+        <label for="">Programming Language</label>
+        <input type="text" name="" id="" placeholder="Select your programming language" list="program">
+        <datalist id="program">
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="Java">Java</option>
+            <option value="SQL">SQL</option>
+            <option value="Python">Python</option>
+        </datalist>
+        <br><br>
+        
+        <input type="submit" name="" id="">
+    </fieldset>
+    </form>
+</body>
+</html>

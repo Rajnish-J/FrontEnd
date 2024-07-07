@@ -1,0 +1,28 @@
+<!--! Validation -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        
+        <label for="uname">Username: </label>
+        <input type="text" name="uName" id="uName" pattern="[A-Za-A]{4,8}" placeholder="Enter username" autofocus required><br><br>
+        
+        <label for="mail">Mail: </label>
+        <input type="mail" name="mail" id="mail" placeholder="Enter your mail" pattern="[A-Za-z0-9.\-]+\.[A-Za-z]{2,}$"><br><br>
+        
+        <label for="password">password: </label>
+        <input type="password" name="pass" id="pass" placeholder="Enter your password" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[~!@#$%^&*?])(?=.*\d).{4,8}"><br><br>
+        
+        <label for="">Phone number: </label>
+        <input type="tel" name="phone" maxlength="10" placeholder="ph.no" pattern="[6-9]{1}[0-9]{9}"><br><br>
+
+        <input type="submit" name="" id="">
+    </form>
+</body>
+</html>
