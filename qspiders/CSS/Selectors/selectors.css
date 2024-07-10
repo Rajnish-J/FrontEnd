@@ -1,0 +1,8 @@
+div,span,p,nav{
+    color: blue;
+    background-color:aqua;
+}
+*{
+    color: bisque;
+    background-color: black;
+}

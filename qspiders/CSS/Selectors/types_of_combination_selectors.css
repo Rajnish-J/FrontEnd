@@ -1,0 +1,29 @@
+/* ! Combination Selectors */
+
+/* ? decendant selectors */
+
+/* #divblock p{
+    color: red;
+    background-color: aquamarine;
+} */
+
+/* ? Child Selectors */
+
+/* #divblock > p{
+    color: blue;
+    background-color: yellow;
+} */
+
+/* ? Adjacent sibling selector */
+
+/* #divblock + span{
+    color: wheat;
+    background-color: coral;
+} */
+
+/* ? General Sibling selector */
+
+/* #divblock ~ p{
+    color: aqua;
+    background-color: azure;
+} */    

@@ -1,0 +1,54 @@
+/* ! pesudo class selector */
+
+#a:link{
+    color: green;
+}
+
+#a:active{
+    color: violet;
+}
+
+#a:visited{
+    color: red;
+}
+
+/* ! Hover */
+
+div{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+div:hover{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+/* ! Form hover method */
+
+input:focus{
+    background-color: aquamarine;
+    color: red;
+    font-size: 32px;
+}
+
+/* ! Child */
+
+li:first-child{
+    color: red;
+    background-color: green;
+}
+
+li:last-child{
+    color: wheat;  
+}
+
+li:nth-child(7){
+    color: lightblue;
+    background-color: brown;
+}
+
+
+/* ! only child */

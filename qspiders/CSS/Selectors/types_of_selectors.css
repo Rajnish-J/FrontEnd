@@ -1,0 +1,20 @@
+/* ! Element selectors */
+p{
+    color: blue;
+}
+
+/* Id selectors */
+#para3{
+    color: red;
+}
+
+/* Class selectors */
+.para6{
+    color: aqua;
+}
+
+.para7{
+    text-transform: uppercase;
+}
+
+/* Group Selectors */
