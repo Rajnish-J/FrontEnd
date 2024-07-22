@@ -1,0 +1,11 @@
+div{
+    height: 400px;
+    width: 400px;
+    border: 7px solid red;
+    /* ! outline property will same for the all 4 sides */
+    outline-width: 5px;
+    outline-color: yellow;
+    outline-style: solid;
+
+    
+}

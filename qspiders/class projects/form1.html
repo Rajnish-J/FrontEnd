@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form1.css">
+</head>
+<body>
+    <form action="">
+        <!-- ! outer division -->
+        <div id="outer">
+            <!-- ! inner division 1 -->
+            <h2>Step 1: your details</h2>
+            <div class="div1">
+                
+                <div class="div11">
+                    <label for="">Name: </label>
+                    <input type="text" placeholder="First and Last name"><br><br>
+                </div>
+                
+                <div class="div11">
+                    <label for="">Email: </label>
+                    <input type="email" placeholder="example123@gmail.com"><br><br>
+                </div>
+                
+                <div class="div11">
+                    <label for="">Phone: </label>
+                    <input type="tel" placeholder="1234567891">
+                </div>
+            </div>
+            
+            <!-- ! Inner class 2 -->
+            <h2> Step 2: Delivery address</h2>
+            <div class="div1">
+                
+                <div class="div11">
+                    <label for="">Address: </label>
+                    <input type="address"><br><br>
+                </div>
+                
+                <div class="div11">
+                    <label for="">Pincode</label>
+                    <input type="number"><br><br>
+                </div>
+                
+                <div class="div11">
+                    <label for="">Country</label>
+                    <input type="text"><br><br>
+                </div>
+            </div>
+            
+            <!-- ! Inner class 3 -->
+            <h2> Step 3:Card details</h2>
+            <div class="div1">
+
+                <div class="div11">
+                    <label for="">card type:</label><br>
+                    <input type="radio" name="card" value="VISA"><span>VISA</span>
+                    <input type="radio" name="card" value="amix"><span>amix</span>
+                    <input type="radio" name="card" value="MasterCard"><span>MasterCard</span><br><br>
+                </div>
+                
+                <div class="div11">
+                    <label for="">Card Number: </label>
+                    <input type="number"><br><br>
+                </div>
+                
+                <div class="div11">
+                    <label for="">Security code: </label>
+                    <input type="number"><br><br>
+                </div>
+
+                <div class="div11">
+                    <label for="">Name in card: </label>
+                    <input type="text" placeholder="not visible"><br><br>
+                </div>
+            </div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>

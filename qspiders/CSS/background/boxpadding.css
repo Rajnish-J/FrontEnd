@@ -1,0 +1,11 @@
+#bgproperty{
+    width: 450px;
+    height: 200px;
+    background-color: cadetblue;
+    margin: 100px 250px;
+    border: 10px dotted rgb(255, 0, 0);
+    padding: 40px;
+    background-clip: border-box;
+    background-clip: content-box;
+    background-clip: padding-box;
+}

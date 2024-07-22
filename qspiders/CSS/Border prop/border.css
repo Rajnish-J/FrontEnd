@@ -1,0 +1,40 @@
+div{
+    /* ! circle */
+    /* height: 400px;
+    width: 400px; */
+
+
+    height: 250px;
+    width: 250px;
+    border: 7px solid;
+    
+    background-color: blueviolet;
+    
+    /* ! border - color*/
+    border-color: yellow;
+    
+    /*  ! border - style */
+    border-style: dashed;
+
+    /*  ! border width */
+    border-width: 5px;
+
+    /* ! shortcut:
+    !  border: width color style;
+    ! */
+
+    /* border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px; */
+
+    /* ! border-radius: top-left top-right bottom left bottom right ; */
+    border-radius: 45px 80px 50px 100px;
+
+    /* ! 
+!   when the values having 3 it takes diagnol values respective
+!   when the values having 2 it takes diagnol    
+!    */
+
+
+}

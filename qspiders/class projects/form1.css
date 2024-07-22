@@ -1,0 +1,20 @@
+#outer{
+    width: 500px;
+    height: 680px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    background-color: rgb(32, 162, 32);
+    border-radius: 4px;
+}
+
+.div1{
+    background-color: lightgreen;
+}
+
+.div11{
+    border: 2px solid white;
+    border-radius: 5px;
+    align-items: center;
+}

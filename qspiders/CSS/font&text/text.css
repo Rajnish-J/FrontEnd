@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    /* ! Text Decoration */
+    text-decoration: underline;
+    /* ! Text transform */
+    text-transform: uppercase;
+    /* ! Text Shadow */
+    /*! text-shadow: x y blur color; */
+    text-shadow: 5px 1px 5px blue;
+}
+
+p{
+    /* ! Text align */
+    text-align: justify;
+    /* ! Text transform */
+    text-transform: capitalize;
+    /* ! Text Indent */
+    text-indent: 100px;
+    /* ! Whitespace */
+    /* white-space: nowrap; */
+    /* ! line height */
+    line-height: 18px;
+    /* ! word spcing */
+    /* word-spacing: 20px; */
+    /* ! Letter spacing */
+    /* letter-spacing: 5px; */
+}

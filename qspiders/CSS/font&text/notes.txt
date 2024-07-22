@@ -1,0 +1,19 @@
+Font properities:
+
+1) font - size
+2) font - weight
+3) font - family
+4) font - variant
+5) font - style
+
+Text properities:
+
+1) text - align
+2) text - decoration
+3) text - transform
+4) text - indent
+5) text - shadow
+6) whitespace
+7) line height
+8) word spacing
+9) letter spacing
