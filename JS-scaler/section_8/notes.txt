@@ -1,0 +1,8 @@
+we are having three memory or space
+
+(i) call stack
+(ii) node API
+(iii) callBack queue
+
+Initially all the functions and objects except asynchronous methods will execute first and put the asynchronous methods in the node API block
+if all the synchronous methods executed its once again checks and move to call QUEUE and then its execute the asynchronous methods
