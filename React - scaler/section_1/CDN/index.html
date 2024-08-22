@@ -1,0 +1,32 @@
+<!-- ! React - CDN links -->
+<!-- * React is an external library we can connect with one of the method call CDN  links and use react DOM and JS DOM-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="root">
+        <!-- <h1>First code of React</h1> -->
+    </div>
+
+    <!-- ! core react JS file -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+    <!-- ! React DOM -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- ! JS -->
+    <script>
+        const message = React.createElement('h1',{},'First code of react');
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+
+        root.render(message)
+    </script>
+
+</body>
+</html>

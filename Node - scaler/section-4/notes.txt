@@ -1,0 +1,58 @@
+V1:
+
+by installing Node, by default npm installed
+version check command: npm -v
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+V2:
+
+npm packing installing, every package could be downloaded and viewed as JSON file
+
+npm init => to initilize the npm
+after, 
+it asks the folder to install => choose accordingly
+basicly enter all the qns after the file selection
+
+after pressing ok (enter) JSON file will be created in the folder
+
+in the folder JSON file created, basically package.JSON file track the track the node Application, after the download of other npm packages JSON will track over..
+
+for understanding purpose => installing figlet package, used to design the command line output
+
+command => npm i figlet
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+V3 : about .gitignore
+
+create a file in the name of (.gitignore) mention the folder name you don't want to push in the git like platforms and add (/), these command ignores the file in the commit.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+V4 : Semantic versioning
+
+dependencies": "figlet": "^1.7.0"
+
+^ => the symbol represents the version of the particular package in the JSON file, there are three types : major, minor, patch
+
+major => other updates given majorly, it incresases in version 1.7.0 to 2.7.0.
+minor => added some minor features, it incresases in version 1.7.0 to 1.8.0.
+patch => if any bugs finded developers gives updates, it incresases in version 1.7.0 to 1.7.1.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+V5 : creating and publishing own package
+
+step 1: create a file and add JSON file to it
+step 2: create an account on npm
+    commands => npm adduser : creates an new account
+                and it add password to it,
+                and give email address, get and put OTP, after logged in succesfully completed
+step 3: after created, login with registered username and password and other req details 
+    command => npm login
+step 4: create appropriate javaScript file
+step 5: after the code, publish
+    command => npm publish, it will published
+
+we can use by importing and use in the various file...

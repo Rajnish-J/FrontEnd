@@ -1,0 +1,23 @@
+What is Node.js ?
+
+* Node.js is an Open source , cross platform JavaScript runtime Environment for executing code outside of a Browser
+* Node.js is widely used to build back-end e ices for Client Side Application, like creating APIs , building Au ' ile handling and talking to the Database.
+* Node.js can be used to build data-Intensive , highly Scalable and real time web apps.
+
+Why to use Node.js?
+
+1 . Superfast and Highly Scalable
+2. JavaScript Everywhere
+3. Consistent and clean codebase
+4. Huge Community Support
+5. Large Ecosystem of Open Source Libs (NPM => node package manager)
+
+Features of Node.js:
+
+Single-Threaded
+2. Asynchronous
+3. Event Driven
+4. NPM
+5. Highly Scalable
+6. Performance (C++ and V8 Engine)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
