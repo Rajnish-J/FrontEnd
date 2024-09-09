@@ -1,0 +1,80 @@
+Express.js(framework) with node.js
+
+features of Express.js:
+1) fast and robust application
+2) middlewares
+3) routing => get, post, put, URL
+4) templating
+5) scalablity
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Installing the Express.js:
+
+with in the project install via npm
+command: npm i express
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+start code in express.js:
+
+Basic program:
+const express = require('express');
+
+const m = express();
+// * get, post, put, delete
+
+// ! get => used to access some data from prticular resources
+
+m.get('/', (res,req) =>{
+    res.send('hello from rajnish')
+})
+
+m.get('/', (res,req) =>{
+    
+})
+
+m.listen(5500, ()=> console.log('program running on 3000'))
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Nodemon:
+
+command to install: npm i nodemon
+
+handles the port calling and terminating
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Environmentals variables and PORT:
+
+const port = process.env.PORT || 5500
+
+use this 'port' variable in the listen method....
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Route parameters: 
+
+This route parameters helps to find the correct page on the browser,
+for example: webpage_name/about
+             webpage_name/careers
+this allows to switch and differentiate the pages to identitfy
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+handling multiple routers:
+
+this is basically an handling the multiple routers id comapred to that one array, and retuning the output, and in the case we have to handle the unmatched id's also
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Postman:
+
+Installing postman on windows...
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+HTTP post method:
+
+add an extra
