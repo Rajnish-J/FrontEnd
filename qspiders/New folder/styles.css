@@ -1,0 +1,17 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .custom-cursor-area {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    text-align: center;
+    cursor: url('vr.png'), auto; /* Fallback to default cursor */
+  }
+  
